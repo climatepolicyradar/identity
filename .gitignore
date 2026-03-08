@@ -3,3 +3,4 @@ CLAUDE.md
 .env
 .venv/
 **/.venv/
+node_modules/

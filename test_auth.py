@@ -2,7 +2,7 @@ import http.server
 import urllib.parse
 import webbrowser
 
-CLIENT_ID = "7rbmfjqof5c1aona3ph3bhaiat"
+CLIENT_ID = "2pmi4c8u3niv93bdao6g6nfmb6"
 DOMAIN = "https://identity-production.auth.us-east-1.amazoncognito.com"
 REDIRECT = "http://localhost:3000"
 
