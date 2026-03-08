@@ -2,9 +2,9 @@
 Cognito JWT validation dependency for FastAPI.
 
 Set these environment variables:
-  COGNITO_USER_POOL_ID  e.g. us-east-1_abc123
+  COGNITO_USER_POOL_ID  e.g. eu-west-1_abc123
   COGNITO_CLIENT_ID     Pulumi output: app_client_id
-  AWS_REGION            e.g. us-east-1
+  AWS_REGION            e.g. eu-west-1
 """
 
 import os
@@ -17,7 +17,7 @@ from pydantic import BaseModel
 
 USER_POOL_ID = os.environ["COGNITO_USER_POOL_ID"]
 CLIENT_ID = os.environ["COGNITO_CLIENT_ID"]
-REGION = os.environ.get("AWS_REGION", "us-east-1")
+REGION = os.environ.get("AWS_REGION", "eu-west-1")
 ISSUER = f"https://cognito-idp.{REGION}.amazonaws.com/{USER_POOL_ID}"
 JWKS_URL = f"{ISSUER}/.well-known/jwks.json"
 
