@@ -1,0 +1,9 @@
+[project]
+name = "identity"
+version = "0.1.0"
+description = "OIDC infrastructure for the identity service"
+requires-python = ">=3.12"
+dependencies = [
+    "pulumi>=3.0.0,<4.0.0",
+    "pulumi-aws>=6.0.0,<7.0.0",
+]

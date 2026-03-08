@@ -1,0 +1,7 @@
+name: identity
+runtime:
+  name: python
+  options:
+    toolchain: uv
+    virtualenv: .venv
+description: OIDC infrastructure for the identity service (AWS Cognito + Google IdP)

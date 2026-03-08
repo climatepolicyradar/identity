@@ -1,0 +1,10 @@
+config:
+  aws:region: us-east-1
+  identity:google_client_id: "486409414017-nfdfl215h8lvcl1v7bs36r9b93241j4c.apps.googleusercontent.com"
+  identity:google_client_secret:
+    secure: AAABAH0Njp9fovN7cQy/mmOAwdxiJXnPXR4IP6eDhndPm3SQNFKeRP5DP20rwTQct+p3cWcR0RC4u5/pgE4CXn096w==
+  identity:cognito_domain_prefix: "identity-production"
+  identity:callback_urls:
+    - "http://localhost:3000"
+  identity:logout_urls:
+    - "http://localhost:3000"
